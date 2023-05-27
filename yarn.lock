@@ -648,6 +648,11 @@
   dependencies:
     "whatwg-url" "^5.0.0"
 
+"nodemailer@^6.9.2":
+  "integrity" "sha512-4+TYaa/e1nIxQfyw/WzNPYTEZ5OvHIDEnmjs4LPmIfccPQN+2CYKmGHjWixn/chzD3bmUTu5FMfpltizMxqzdg=="
+  "resolved" "https://registry.npmjs.org/nodemailer/-/nodemailer-6.9.2.tgz"
+  "version" "6.9.2"
+
 "nopt@^5.0.0":
   "integrity" "sha512-Tbj67rffqceeLpcRXrT7vKAN8CwfPeIBgM7E6iBkmKLV7bEMwpGgYLGv0jACUsECaa/vuxP0IjEont6umdMgtQ=="
   "resolved" "https://registry.npmjs.org/nopt/-/nopt-5.0.0.tgz"

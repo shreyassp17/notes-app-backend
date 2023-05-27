@@ -6,6 +6,7 @@ const { getTasks, createTask, deleteTask } = require('../controllers/taskControl
 //middleware
 router.use(requireAuth)
 
+
 //get all the tasks
 router.get('/', getTasks)
 

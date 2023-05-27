@@ -7,12 +7,14 @@ const taskRoutes = require('./routes/taskRoutes')
 const cors = require("cors");
 const PORT = process.env.PORT || 4000
 
+
 //express App
 const app = express()
 
 //middlewares
 app.use(cors());
 app.use(express.json())
+
 // Add Access Control Allow Origin headers
 app.use((req, res, next) => {
     res.setHeader("Access-Control-Allow-Origin", "*");
@@ -29,8 +31,6 @@ app.use((req, res, next) => {
 
 app.use('/api/users', userRoutes)
 app.use('/api/tasks', taskRoutes)
-
-
 
 //connect to db
 mongoose.connect(process.env.MONGO_URI)
